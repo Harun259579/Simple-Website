@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content=" form,css"/>
+    <link rel="shortcut icon" href="icons8-registration-48.png" type="image/x-icon">
+   <link rel="stylesheet" type="text/css" href="style_registrasion.css">
+    <title>Tour Registration Form</title>
+<style>
+      
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    .container {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 400px;
+      margin: auto;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+    input[type="text"],input[type="email"],input[type="date"],input[type="file"],input[type="password"],input[type="number"],select
+    {
+    width: 70%;height: 10%;
+      /*border-radius: 10px;*/
+      font-size: 12px;
+      box-sizing: border-box; /* So padding doesn't overflow */
+      border: 1px solid black;
+      padding: 5px;
+    }
+
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 30%;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    
+
+</style>
+  </head>
+<body>
+    <div class="container">
+  <h2>Create Account Or Registration</h2>
+    <form>
+        <fieldset>
+            <legend>Registration Form</legend>
+        <div class="input1">
+        <label> Enter Your Name </label><br/>
+        <input placeholder="Enter Professional Name" type="text" name="name" id="input-name " size="20"/> <br/>
+        </div>
+        <br/> 
+        <div class="input1">
+        <label>Email or Phone number </label><br/>
+        <input placeholder="Email or phone number" type="email" name="email" id="input-email " size="20"/> <br/>
+        </div>
+        <br/> 
+        <div class="input1">
+        <label>Password </label><br/>
+        <input placeholder="Enter Your passward" type="password" name="passward" id="input-pasaward" required /> <br/>
+        </div>
+        <br/> 
+         <div class="input1">
+        <label> Select Your Birth Date </label><br/>
+        <input placeholder="Enter Your Birthday" type="date" name="birthday" id="input-birthday " required /> <br/>
+        </div>
+        <br/> 
+        <div class="input1">
+        <label> National Identity Number </label><br/>
+        <input placeholder="NID Number" type="number" name="nidnumber" id="input-number" required /> <br/>
+        </div>
+        <br/> 
+         <div class="input1">
+        <label> Enter Your Gender </label><br>
+        <input type="radio" name="Gender" id="" value="Male" /> Male
+        <input type="radio" name="Gender" id="" value="Female"/> Female  <br/>
+         </div>
+        <br/>
+        <div class="input1">
+        <label> Enter Your Favourite Colour </label><br/>
+        <input placeholder="Enter Favourite Colour" type="color" name="color" id="input-color " required value="" readonly size="20"/> <br/>
+        </div>
+        <br/> 
+       
+        <div class="input1">
+        <label> Upload Your Photo </label><br/>
+        <input placeholder="choose Your Recent photo" type="file" name="photo" id="input-photo" required /> <br/>
+        </div>
+        <br/> 
+        <div class="input1">
+        <label>Favourite Hobby</label> <br/>
+        <select name="" id="" value="" > 
+        <option value="">Gaming</option> 
+        <option value="">Tour</option> 
+        <option value="">Studying</option> 
+    </select>
+         </div>
+        <br/>
+                   <button type="submit">Submit</button>
+    
+        </fieldset>
+        
+         
+         
+    </form>  
+    </div>
+</body>
+</html>
